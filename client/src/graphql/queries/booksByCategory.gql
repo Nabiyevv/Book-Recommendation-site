@@ -1,0 +1,14 @@
+query{
+  booksByCategory(category_id: "8") {
+    data {
+      id
+      title
+      author
+      image
+    }
+    paginatorInfo {
+      currentPage
+      lastPage
+    }
+  }
+}
